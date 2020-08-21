@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es6",
+        "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+        "sourceMap": true,
+        "outDir": "./dist",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "removeComments": true,
+        "strict": true,
+        "baseUrl": "./src",
+        "allowSyntheticDefaultImports": true,
+        "paths": {
+            "*": ["*"]
+        }
+    },
+    "exclude": ["node_modules"],
+    "include": ["./src/**/*.tsx", "./src/**/*.ts"]
+}

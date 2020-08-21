@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --dark: #343a40;
+    --darker: #282828;
+    --light-blue: #089eae;
+    --white: #ffffff;
+    --crystal: rgba(255, 255, 255, 0.2);
+}
+
+$bg: var(--dark);
+$bg-dark: var(--darker);
+$fg: var(--white);
+$fg-light: var(--crystal);
+$sg: var(--light-blue);
+
+body {
+    background: $bg;
+    color: $fg;
+    overflow-y: scroll;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto,
+        Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+}

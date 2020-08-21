@@ -1,0 +1,6 @@
+// index.scss
+// controled import order is needed
+
+@import './normalize';
+@import './defaults';
+@import '../../{components, pages}/**/*.scss';
