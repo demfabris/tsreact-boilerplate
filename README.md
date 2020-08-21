@@ -1,3 +1,5 @@
-# Typescript, Babel, Jest, ESLint, Webpack
+# Typescript, Babel, Jest, ESLint, Webpack, Prettier, SASS
 
-## Boilerplate by fabricio7p
+Very strict, no semi colon linting
+
+Boilerplate by fabricio7p
